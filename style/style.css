@@ -113,11 +113,17 @@
     align-items: center;
     gap: 40px;
 }
+.plants-container-left{
+    width: 100%;
+}
 .trusted-badge{
     max-width: 100px;
     height: 100px;
     margin-top: -200px;
     margin-left: 490px;
+}
+.plants-container-right h2{
+    line-height: 40px;
 }
 .plants-container-right li{
     margin-bottom: 15px;
@@ -146,9 +152,10 @@
     }
     .card-right{
         grid-template-columns: repeat(2, 1fr);
+        
     }
     .card-right-cards{
-        max-width: 200px;
+        max-width: 220px;
         gap: 0;
     }
     .card-right-cards button{
@@ -157,5 +164,14 @@
     .card-right-cards img{
         width: 100%;
 
+    }
+    .plants-container{
+        flex-direction: column;
+    }
+    .plants-container-left img{
+    width: 100%;
+}
+    .trusted-badge{
+        display: none;
     }
 }
