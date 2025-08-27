@@ -23,15 +23,27 @@
 /* shared style */
 .container{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 100px auto;
+
 }
 
 .heading{
-    
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: 10px;
 }
 
 .text{
     color: rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    max-width: 300px;
+    padding: 10px 90px;
+    text-align: center;
 }
 
 
@@ -76,6 +88,23 @@
     color: #E95A08;
 }
 
+/* card section */
+.card{
+    text-align: center;
+    
+}
+
+
+.card-right{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.card-right h4{
+    font-size: 1.25rem;
+    color: #111111;
+    line-height: 10px;
+}
 
 
 
@@ -99,5 +128,19 @@
     }
     .banner-right img{
         width: 100%;
+    }
+    .card-right{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-right-cards{
+        max-width: 200px;
+        gap: 0;
+    }
+    .card-right-cards button{
+        width: 100%;
+    }
+    .card-right-cards img{
+        width: 100%;
+
     }
 }
