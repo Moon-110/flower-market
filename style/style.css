@@ -47,3 +47,28 @@
     text-decoration: none;
     color: #252432;
 }
+.span1{
+    color: #8987A1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .header{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
