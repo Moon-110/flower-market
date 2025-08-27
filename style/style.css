@@ -106,7 +106,22 @@
     line-height: 10px;
 }
 
-
+/* plants section */
+.plants-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.trusted-badge{
+    max-width: 100px;
+    height: 100px;
+    margin-top: -200px;
+    margin-left: 490px;
+}
+.plants-container-right li{
+    margin-bottom: 15px;
+}
 
 
 
