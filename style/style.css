@@ -26,6 +26,14 @@
     margin: 0 auto;
 }
 
+.heading{
+
+}
+
+.text{
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 
 
@@ -51,7 +59,22 @@
     color: #8987A1;
 }
 
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.banner-left h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.span2{
+    color: #E95A08;
+}
 
 
 
