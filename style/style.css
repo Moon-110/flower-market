@@ -34,4 +34,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+}
+
+.header-right ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-right li a{
+    text-decoration: none;
+    color: #252432;
 }
