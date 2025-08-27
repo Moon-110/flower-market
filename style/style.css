@@ -27,7 +27,7 @@
 }
 
 .heading{
-
+    
 }
 
 .text{
@@ -93,5 +93,11 @@
     .header{
         flex-direction: column;
         gap: 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-right img{
+        width: 100%;
     }
 }
