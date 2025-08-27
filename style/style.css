@@ -219,6 +219,36 @@
     background-color: transparent;
 }
 
+/* newsletter section */
+
+.newsletter{
+    height: 500px;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.newsletter h2{
+    padding-top: 200px;
+    text-align: center;
+}
+.newsletter input{
+    margin-left: 300px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.newsletter button{
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
+background-color: #E95A08;
+color: #FFFFFF;
+border: none;
+}
+
 
 
 
