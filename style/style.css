@@ -134,8 +134,26 @@
     text-align: center;
 }
 
-/*  */
+/* shop now */
+.shop-now{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.shop-now-left{
+    
+}
+.shop-now-left-top{
+  
+}
+.shop-now-left-bottom{
+    
+}
 
+.shop-now-right{
+    
+}
 
 
 
